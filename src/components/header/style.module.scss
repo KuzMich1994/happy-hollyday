@@ -1,0 +1,32 @@
+.header {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 20px rgba(72, 3, 38, 0.07);
+  padding: 28px 0;
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__buttons {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+  }
+  
+  @media (max-width: 1024px) {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__buttons {
+      max-width: 220px;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

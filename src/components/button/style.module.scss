@@ -1,0 +1,16 @@
+.button {
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 21px;
+  border-radius: 30px;
+  background-color: #00C78B;
+  border: none;
+  color: #ffffff;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

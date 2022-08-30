@@ -1,0 +1,28 @@
+.card {
+  padding-top: 32px;
+  max-width: 840px;
+  margin: 0 auto;
+
+  &__container {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__image {
+    object-fit: cover;
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 304px;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    &Element {
+      &:not(:last-child) {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
